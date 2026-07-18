@@ -1,0 +1,38 @@
+{
+  "Name": "VegaCustom",
+  "GlobalProxy": "false",
+  "UseChunkFiles": "true",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://github.com/1andrevich/Re-filter-lists/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/1andrevich/Re-filter-lists/releases/latest/download/geosite.dat",
+  "LastUpdated": "1784352932",
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"
+  },
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:direct"
+  ],
+  "ProxySites": [
+    "geosite:refilter"
+  ],
+  "ProxyIp": [
+  "geoip:refilter"
+  ],
+  "BlockSites": [
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
